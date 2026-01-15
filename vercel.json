@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/redirect/:match*",
+      "destination": "https://github-stats-extended.vercel.app/:match*"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/rewrite/:match*",
+      "destination": "https://github-stats-extended.vercel.app/:match*"
+    }
+  ]
+}
